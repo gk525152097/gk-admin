@@ -18,7 +18,7 @@ git add -A
 git commit -m 'deploy - pages'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/gk525152097/gk525152097.github.io master:gh-pages
+git push -f https://github.com/gk525152097/gk525152097.github.io master
 
 cd -
 
