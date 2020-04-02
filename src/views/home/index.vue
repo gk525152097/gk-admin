@@ -73,7 +73,6 @@ export default {
         { year: 'css', sales: 84 },
         { year: 'html', sales: 88 },
         { year: 'js', sales: 82 },
-        { year: 'node', sales: 68 },
         { year: 'vue', sales: 89 },
         { year: 'react', sales: 60 },
         { year: '小程序', sales: 76 }
@@ -82,7 +81,6 @@ export default {
         { type: 'css', value: 20 },
         { type: 'html', value: 15 },
         { type: 'js', value: 22 },
-        { type: 'node', value: 10 },
         { type: 'vue', value: 23 },
         { type: 'react', value: 10 },
         { type: '小程序', value: 15 }
