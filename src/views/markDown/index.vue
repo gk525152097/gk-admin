@@ -78,6 +78,7 @@ export default {
   }
   .content {
     display: flex;
+    overflow: scroll;
     .menu {
       .menu-icon {
         padding: var(--padding);

@@ -41,6 +41,15 @@ export const constantRoutes = [
     children: [
       { path: '/', name: '首页', component: () => import('@/views/home'), hidden: true, icon: 'el-icon-s-home' }
     ]
+  },
+  {
+    path: '/self',
+    name: '个人',
+    component: () => import('@/views/layout/baseLayout'),
+    icon: 'el-icon-user-solid',
+    children: [
+      { path: '/self', name: '个人', component: () => import('@/views/user/index'), hidden: true, icon: 'el-icon-user-solid' }
+    ]
   }
 ]
 

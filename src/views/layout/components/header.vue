@@ -44,11 +44,11 @@ export default {
 
 <style lang="scss" scoped>
 .header {
-  padding: 12px;
+  padding: var(--padding);
   margin: 20px;
   background: var(--sub-color);
-  border-radius: 12px;
-  box-shadow: 5px 5px 20px 5px var(--sub-color2);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
   display: flex;
   justify-content: space-between;
   align-items: center;

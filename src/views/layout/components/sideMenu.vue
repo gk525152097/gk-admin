@@ -38,7 +38,7 @@ export default {
           'el-submenu',
           {
             props: {
-              index: `'${item.id}'`,
+              index: `'${item.path}'`,
               path: item.path
             },
             on: {
@@ -69,7 +69,7 @@ export default {
           'el-submenu',
           {
             props: {
-              index: `'${item.id}'`,
+              index: `'${item.path}'`,
               path: redirectPath
             },
             on: {
@@ -100,7 +100,7 @@ export default {
           'el-menu-item',
           {
             props: {
-              index: `'${item.id}'`,
+              index: `'${item.path}'`,
               path: item.path
             },
             on: {

@@ -12,7 +12,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@import "./assets/styles/global";
+body {
+  font-size: 12px;
+}
 :root {
   --login-bg: url("./assets/login_bg.png");
   --main-color: #409EFF;
@@ -38,8 +42,10 @@ export default {
 .shenglue{
   width: 100%;
   overflow: hidden;
-  text-overflow:ellipsis;
-  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: -webkit-box; /* 将对象作为弹性伸缩盒子模型显示 */
+  -webkit-line-clamp: 1; /* 控制最多显示几行 */
+  -webkit-box-orient: vertical; /* 设置或检索伸缩盒对象的子元素的排列方式 */
 }
 html, body {
   height: 100%;

@@ -1,6 +1,6 @@
 <template>
   <div class="g2Pie">
-    <div :id="id"></div>
+    <div id="container"></div>
   </div>
 </template>
 
@@ -10,9 +10,7 @@ export default {
   name: 'g2Pie',
   components: {},
   data () {
-    return {
-      id: Math.random().toString(36).substr(2)
-    }
+    return {}
   },
   props: {
     data: {
@@ -50,7 +48,7 @@ export default {
       })
 
       const chart = new G2.Chart({
-        container: this.id,
+        container: 'container',
         autoFit: true,
         height: 200
       })
