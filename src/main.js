@@ -10,10 +10,13 @@ import i18n from './i18n/index'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
+import message2 from './components/Message/index'
+
 import '@/permission' // permission control
 
 Vue.config.devtools = true
 Vue.prototype.$axios = axios
+Vue.prototype.$message2 = message2
 Vue.use(Vuex)
 Vue.use(ElementUI)
 

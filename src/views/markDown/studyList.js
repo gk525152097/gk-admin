@@ -8,6 +8,7 @@ import promise from './promise/index.md'
 import springBoot from './springBoot-vue/index.md'
 import cssFlex from './css/Flex.md'
 import cssGird from './css/gird.md'
+import VueApiComponent from './vueAPIComponent/index.md'
 
 const list = [
   { name: 'vuepress', icon: 'el-icon-document', file: vuepress },
@@ -19,7 +20,8 @@ const list = [
   { name: 'promise', icon: 'el-icon-document', file: promise },
   { name: 'springBoot接入', icon: 'el-icon-document', file: springBoot },
   { name: 'css-flex', icon: 'el-icon-document', file: cssFlex },
-  { name: 'css-gird', icon: 'el-icon-document', file: cssGird }
+  { name: 'css-gird', icon: 'el-icon-document', file: cssGird },
+  { name: 'VueApiComponent', icon: 'el-icon-document', file: VueApiComponent }
 ]
 
 export default list
