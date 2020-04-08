@@ -31,7 +31,7 @@
         <!--登陆按钮-->
         <el-button @click="onSubmit('form')" class="login-btn">登陆</el-button>
         <div class="login-info">
-          <span>用户手册</span>
+          <span @click="handleUser">用户手册</span>
         </div>
       </el-form>
       <div class="footer">
@@ -76,6 +76,13 @@ export default {
     ...mapActions({
       handleLogin: 'user/handleLogin'
     }),
+
+    /**
+     * 用户手册
+     */
+    handleUser () {
+      this.$message('输入任意登陆')
+    },
 
     /**
      * 提交登陆

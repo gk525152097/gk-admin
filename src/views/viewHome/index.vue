@@ -1,7 +1,7 @@
 <template>
-  <div class="index">
-    ceshi
-  </div>
+    <div class="index">
+        index
+    </div>
 </template>
 
 <script>
@@ -18,10 +18,6 @@ export default {
   created () {
   },
   mounted () {
-    setTimeout(() => {
-      this.$destroy(true)
-      this.$el.remove()
-    }, 1000)
   },
   destroyed () {
   }
@@ -29,8 +25,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.index {
-  display: flex;
-  z-index: 500;
-}
+    .index {
+    }
 </style>

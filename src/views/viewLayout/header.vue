@@ -1,15 +1,18 @@
 <template>
-  <div class="index">
-    ceshi
+  <div class="header">
+    {{ defaultSettings.systemName }}
   </div>
 </template>
 
 <script>
+import defaultSettings from '../../defaultSettings'
 export default {
-  name: 'index',
+  name: 'header',
   components: {},
   data () {
-    return {}
+    return {
+      defaultSettings
+    }
   },
   props: {},
   watch: {},
@@ -18,10 +21,6 @@ export default {
   created () {
   },
   mounted () {
-    setTimeout(() => {
-      this.$destroy(true)
-      this.$el.remove()
-    }, 1000)
   },
   destroyed () {
   }
@@ -29,8 +28,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.index {
-  display: flex;
-  z-index: 500;
+.header {
 }
 </style>

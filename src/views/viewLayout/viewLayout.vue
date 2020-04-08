@@ -1,12 +1,12 @@
 <template>
-  <div class="index">
-    ceshi
+  <div class="viewLayout">
+    viewLayout
   </div>
 </template>
 
 <script>
 export default {
-  name: 'index',
+  name: 'viewLayout',
   components: {},
   data () {
     return {}
@@ -18,10 +18,6 @@ export default {
   created () {
   },
   mounted () {
-    setTimeout(() => {
-      this.$destroy(true)
-      this.$el.remove()
-    }, 1000)
   },
   destroyed () {
   }
@@ -29,8 +25,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.index {
-  display: flex;
-  z-index: 500;
-}
+    .viewLayout {
+    }
 </style>
